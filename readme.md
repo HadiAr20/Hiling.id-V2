@@ -1,10 +1,10 @@
-Hiling.id
+Hiling.id V2 (+Redux Thunk & Redux Saga)
 ===
 &nbsp;
 Apk Preview 
 ---
 <p align="center">
-    <img width="200px" src="./src/assets/Screenshot_2023-03-14-00-10-16-411_host.exp.exponent.jpg">
+    <img width="200px" src="./src/assets/Tampilan Home Apk.jpg">
 </p>
 
 ## Repo Structure
