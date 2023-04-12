@@ -7,9 +7,6 @@ Apk Preview
     <img width="200px" src="./src/assets/Screenshot_2023-03-14-00-10-16-411_host.exp.exponent.jpg">
 </p>
 
-## Apk Link
-- [Hiling.id =>](./application-76f53ca1-23fc-48ab-a416-dc2a81030eac.apk)
-
 ## Repo Structure
 ```
 /
