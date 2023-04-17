@@ -1,5 +1,6 @@
 Hiling.id V2 (Redux Thunk & Redux Saga)
 ===
+Aplikasi penerbangan pesawat dengan nama Hiling.id dengan menerapkan konsep redux thunk dan redux saga serta menggunakan API IP
 ## App Link
 Link App Download => [Hiling.id-V2](https://expo.dev/artifacts/eas/ud32M3pB9FPQJ726vth1Dy.apk)
 
@@ -14,6 +15,16 @@ Apk Preview
 <p align="center">
     <img width="500px" src="./src/assets/Testing Unit.jpeg">
 </p>
+
+## Library
+```
+-React Native
+-Expo
+-Jest
+-Redux
+-React Native Vector Icons
+-Redux Mock Store
+```
 
 ## Repo Structure
 ```
