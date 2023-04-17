@@ -1,6 +1,8 @@
 Hiling.id V2 (Redux Thunk & Redux Saga)
 ===
-Aplikasi penerbangan pesawat dengan nama Hiling.id dengan menerapkan konsep redux thunk dan redux saga serta menggunakan API IP
+Muhammad Hadi Arsa (120140150)
+Aplikasi Hiling.id Version 2 ini menerapkan konsep redux thunk, redux saga, dan menggunakan API IP
+
 ## App Link
 Link App Download => [Hiling.id-V2](https://expo.dev/artifacts/eas/ud32M3pB9FPQJ726vth1Dy.apk)
 
