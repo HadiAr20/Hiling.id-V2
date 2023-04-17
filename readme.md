@@ -1,8 +1,16 @@
-Hiling.id V2 (+Redux Thunk & Redux Saga)
+Hiling.id V2 (Redux Thunk & Redux Saga)
 ===
-&nbsp;
+## App Link
+Download App => [Hiling.id-V2](https://expo.dev/artifacts/eas/ud32M3pB9FPQJ726vth1Dy.apk)
+
 Apk Preview 
 ---
+Landing Page 
+<p align="center">
+    <img width="200px" src="./src/assets/Tampilan Home Apk.jpg">
+</p>
+
+Testing Unit
 <p align="center">
     <img width="200px" src="./src/assets/Tampilan Home Apk.jpg">
 </p>
@@ -10,18 +18,39 @@ Apk Preview
 ## Repo Structure
 ```
 /
-├─ src/              # All assets, components, db, and screen. Also routes
-│  ├─ assets/        # Dummy or images and video
-│  ├─ components/    # All components are here
-│  |   └─ index.js   # Routing every components 
-│  ├─ database/      # Currently dummy data with JSON type
-│  ├─ routes/        # Stack navigator keep here 
-│  │   └─ index.js   # Work as third layer route and make it into component 
-│  ├─ screen/        # Put all of layout or screen file
-|  ├─index.js        # Second layer route to call from routes/index.js
+├─ src/                   # All assets, components, db, and screen. Also routes
+│  ├─ assets/             # Dummy or images and video
+│  ├─ components/         # All components are here
+│  |   └─ homeFrom.js
+│  |   └─ index.js     
+│  |   └─ resultCard.js
+│  ├─ database/           # Currently dummy data with JSON type
+│  ├─ redux/
+│  ├─ futures/
+│       └─ info.js        # Action File Fetch Redux
+│       └─ info.test.js   # Jest Testing Unit Info Fetch Redux 
+│       └─ developer.js   # Developer for state based on Action
+│       └─ ticket.js      # Ticket for state based on Action
+│       └─ store.js       # Middleware File Redux 
+│  ├─ routes/             # Stack navigator keep here 
+│  │   └─ index.js        # Work as third layer route and make it into component 
+│  ├─ screen/             # Put all of layout or screen file
+|  ├─  └─ Home.js         # Home Page
+|  ├─  └─ resultPage.js   # Searching Result
+|  ├─  └─ index.js        # Second layer route to call from routes/index.js
 │
-├─ App.js            # Main js to be rendered, 
-                       cause only CLI that appear index.js at root folder 
+├─ App.js                 # Main js to be rendered, 
+├─.gitattributes
+├─ .gitignore
+├─ README.md
+├─ app.json
+├─ babel.config.json
+├─ eas.json
+├─ jest.config.json
+├─ package-lock.json
+├─ package.json
+├─tailwain.config.js
+├─ yarn.lock
 ```
 
 ## Installation
@@ -52,10 +81,3 @@ eas build -p android
 Then wait and follow the instruction if it the first build, generate a new key and choose apk.Last if expo need login in terminal input same as your expo.dev account
 &nbsp;
 
-
-## Dependencies
-- ["expo-status-bar": "~1.4.0"](https://docs.expo.dev/versions/latest/sdk/status-bar/),
-- ["react-native-safe-area-context": "4.3.1"](https://docs.expo.dev/versions/latest/sdk/safe-area-context/),
-- ["react-native-screens": "~3.15.0"](https://docs.expo.dev/versions/latest/sdk/screens/),
-- ["nativewind": "^2.0.11"](https://www.nativewind.dev/quick-starts/expo)
-- ["@expo/vector-icons": "13.0.0"](https://icons.expo.fyi/)
