@@ -1,18 +1,18 @@
 Hiling.id V2 (Redux Thunk & Redux Saga)
 ===
 ## App Link
-Download App => [Hiling.id-V2](https://expo.dev/artifacts/eas/ud32M3pB9FPQJ726vth1Dy.apk)
+Link App Download => [Hiling.id-V2](https://expo.dev/artifacts/eas/ud32M3pB9FPQJ726vth1Dy.apk)
 
 Apk Preview 
 ---
-Landing Page 
+## Landing Page 
 <p align="center">
-    <img width="200px" src="./src/assets/Tampilan Home Apk.jpg">
+    <img width="250px" src="./src/assets/Tampilan Home Apk.jpg">
 </p>
 
-Testing Unit
+## Testing Unit
 <p align="center">
-    <img width="200px" src="./src/assets/Tampilan Home Apk.jpg">
+    <img width="500px" src="./src/assets/Testing Unit.jpeg">
 </p>
 
 ## Repo Structure
